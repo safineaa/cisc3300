@@ -1,0 +1,26 @@
+1. What happens from the time a user puts a URL into their browser to when they are able
+to view a webpage? - Briefly define ISP, URL, DNS, web server.
+
+When someone puts the URL into their browser, their browser requests the URL’s IP address from the DNS server, which is provided by the ISP. Then the browser sends a request to the web server at the IP address. The web server processes the request then sends the page’s data back to the browser, and the browser displays the webpage to the user. 
+
+ISP - Internet Service Provider: provides internet access to user 
+URL - Uniform Resource Locator: a web address that specific the location of a webpage and how to retrieve it 
+DNS - Domain Name System: Turns the URL into an IP address for network devices so they can send requests to the right location
+Web Server - System that hosts websites and stores its content to be delivered to users when requested
+
+
+2. What is html? What does it do?
+
+HTML stands for Hypertext Markup Language. It is the basic markup language that is used to create web pages or applications on the internet.
+
+3. Access https://www.fordham.edu/. In your own words, describe how this webpage uses
+structure to convey meaning and navigation options to the user.
+
+Fordham uses big text to highlight key points and links to more information. It also has a navigation bar with links titled things like “About”, “Mission”, “Admissions and Aid”, etc, that lead to more detailed subsections. This allows users to quickly find information about general questions they may have. But I’m not going to lie, anything further and more in-depth, Fordham’s website is not very user friendly and is tedious to navigate. That’s just my opinion though. 
+
+4. What is an html element? Tag? Attribute?
+
+HTML elements are used to describe the structure of the page (headings, subheadings, paragraphs), that also provide semantic information (where emphasis should be placed, def of acronyms, etc) 
+Tags act like containers, they tell you something about the information that lies between their opening and closing tags.
+Attributes provide additional information about the contents of an element, and are made up of a name and a value. 
+
