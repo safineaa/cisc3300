@@ -52,13 +52,13 @@ header {
 
 .brand-name {
   font-size: 5em;
-  color: red; /* Replace with the exact color code for the brand name */
+  color: red; 
   margin-bottom: 0;
 }
 
 .valentines-edit {
   display: inline-block;
-  background: rgba(255, 255, 255, 0.7); /* Adjust the opacity as needed */
+  background: rgba(255, 255, 255, 0.7); 
   padding: 20px;
   margin-top: 20px;
 }
@@ -91,9 +91,9 @@ table td {
 }
 
 table img {
-  width: 100%; /* Adjust width as needed, or set a max-width */
+  width: 100%; 
   height: auto;
-  margin-bottom: 10px; /* Adjust spacing between image and text as needed */
+  margin-bottom: 10px;
 }
 
 .makeup-description h3 {
