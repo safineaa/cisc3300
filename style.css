@@ -1,0 +1,169 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Apercu mono, monospace;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.top-nav {
+  width: 100%;
+  background: white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.top-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.top-nav li {
+  margin: 0 15px;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.right-nav {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.hero-section {
+  background-image: url('Image 1-29-24 at 8.11 PM.jpg'); 
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.brand-name {
+  font-size: 5em;
+  color: red; /* Replace with the exact color code for the brand name */
+  margin-bottom: 0;
+}
+
+.valentines-edit {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.7); /* Adjust the opacity as needed */
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.valentines-edit h2 {
+  color: #333;
+  font-size: 2em;
+}
+
+.valentines-edit p {
+  color: #555;
+}
+
+.shop-now-btn {
+  display: inline-block;
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+}
+
+table td {
+  padding: 10px;
+}
+
+table img {
+  width: 100%; /* Adjust width as needed, or set a max-width */
+  height: auto;
+  margin-bottom: 10px; /* Adjust spacing between image and text as needed */
+}
+
+.makeup-description h3 {
+  font-size: .875rem;
+  line-height: 1.255rem;
+}
+.makeup-description p{
+
+  margin-bottom: 0;
+  color: #666;
+  font-size:.875rem;
+  line-height: 1.225rem;
+  
+}
+
+
+
+
+.contact-container {
+  padding: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-container h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.contact-container a {
+  color: #000;
+  text-decoration: none;
+}
+
+.newsletter-container {
+  background-color: #f8f8f8;
+  padding: 50px;
+  text-align: center;
+}
+
+.newsletter-container form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter-container input[type=email],
+.newsletter-container input[type=tel] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px; /* Space between the inputs */
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.newsletter-container button {
+  width: calc(100% - 20px);
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
