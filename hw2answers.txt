@@ -1,0 +1,19 @@
+1. Define structural vs semantic meaning in regard to HTML elements.
+
+Structural elements are what you can use to describe both headings and paragraphs.
+Semantic elements provide extra information, like where emphasis is placed in a sentence, meaning of acronyms etc.
+
+2. Why is it important to use correct html elements when designing web pages?
+
+It contributes to a better user experience, it makes the website more maintainable and easier to update or modify, it ensures the site functions properly, its more professional, etc.
+
+
+3. What are forms in html? What is their purpose? When would you use one?
+
+They are different elements that allows you to collect information from visitors to your site. You could use one to register as a member of a website, shopping onlin, or signing up for newsletters. 
+
+4. Define and contrast inline vs block elements.
+
+
+Block level elements always appear to start in a new line in the browser window while Inline elements always appear to continue on the same line as their neighboring elements. 
+
