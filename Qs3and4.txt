@@ -1,0 +1,13 @@
+3. 
+Margin affects the space outside an element.
+Padding affects the space inside an element.
+Border is the visible outline that can sit between the margin and padding.
+
+
+ 4. 
+a. display: flex - It defines a flex container, inline or block. 
+b. Flex-direction - This establishes the main-axis, thus defining the direction flex items are placed in the flex container. 
+c. flex-wrap - flex items will wrap onto multiple lines, from top to bottom.
+d. justify-content/align-items - Justify-content defines the alignment along the main axis. Align-items defines the default behavior for how flex items are laid out along the cross axis on the current line. 
+e. Align-content - aligns a flex container’s lines within when there is extra space in the cross-axis, similar to how justify-content aligns individual items within the main-axis.
+
