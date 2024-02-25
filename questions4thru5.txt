@@ -1,0 +1,10 @@
+4.What is the DOM? What is meant by the DOM tree?
+
+
+The Document Object Model specifies how browsers should create a model of an HTML page and how JavaScript can access and update the contents of a webpage while it is in the browser window. The DOM is called an object model because the model (the DOM tree) is made of objects. Each object represents a different part of the page loaded in the browser window. 
+
+
+5. What is a XSS attack? How do they work? How can you guard against them?
+
+XXS attacks occur when an attacker manages to inject malicious scripts into content from a trusted website. This script then runs in the browser, and can potentially steal credentials, session tokens, etc.  You can guard against XXS attacks by validating user inputs to make sure that they don’t contain executable code, use CSP headers to restrict sources of executable scripts, etc. 
+
